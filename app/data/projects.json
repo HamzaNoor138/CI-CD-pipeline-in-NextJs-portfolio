@@ -1,0 +1,254 @@
+[
+  {
+    "title": "Blinkit UI - Premium E-Commerce App",
+    "slug": "blinkit-ui-premium-ecommerce",
+    "image": "/p8.png",
+    "shortDescription": "Enterprise-grade Flutter e-commerce app with clean architecture, advanced UI/UX, and real-time delivery tracking.",
+    "description": "Built a production-ready, enterprise-grade e-commerce mobile application inspired by Blinkit, India's leading instant delivery platform. Developed using Flutter with Clean Architecture and optimized state management, the app features OTP-based authentication, smart product search, dynamic category navigation, cart intelligence, personalized profiles, promotions, and real-time delivery tracking. Designed with Material Design 3.0, smooth animations, and cross-platform optimizations for iOS and Android, this project demonstrates scalable architecture, premium UI/UX, and business-driven functionality.",
+    "skills": [
+      { "name": "Flutter", "icon": "🟦" },
+      { "name": "Dart", "icon": "🎯" },
+      { "name": "Clean Architecture", "icon": "🏗️" },
+      { "name": "State Management", "icon": "⚡" },
+      { "name": "UI/UX Design", "icon": "🎨" },
+      { "name": "Material Design 3.0", "icon": "📱" },
+      { "name": "Responsive Design", "icon": "📐" },
+      { "name": "Real-Time Tracking", "icon": "📍" },
+      { "name": "Authentication", "icon": "🔑" },
+      { "name": "E-Commerce Features", "icon": "🛒" },
+      { "name": "Cross-Platform Development", "icon": "🔀" },
+      { "name": "Performance Optimization", "icon": "🚀" }
+    ],
+    "links": {
+      "live": "https://blinkit-ui.example.com",
+      "github": "https://github.com/HamzaNoor138/blinkit-ui"
+    }
+  },
+  {
+    "title": "Portfolio Website",
+    "slug": "portfolio-website",
+    "image": "/file.svg",
+    "shortDescription": "A modern portfolio website to showcase developer skills and projects.",
+    "description": "A fully responsive portfolio website built with Next.js, Tailwind CSS, and Framer Motion. Features animated sections, project gallery, and contact form.",
+    "skills": [
+      { "name": "Next.js", "icon": "▲" },
+      { "name": "Tailwind CSS", "icon": "🎨" },
+      { "name": "Framer Motion", "icon": "✨" }
+    ],
+    "links": {
+      "live": "https://portfolio.example.com",
+      "github": "https://github.com/example/portfolio"
+    }
+  },
+  {
+    "title": "E-commerce Platform",
+    "slug": "ecommerce-platform",
+    "image": "/globe.svg",
+    "shortDescription": "A scalable e-commerce platform with product catalog and checkout.",
+    "description": "Built a robust e-commerce platform using React, Node.js, and MongoDB. Includes user authentication, product management, and secure payments.",
+    "skills": [
+      { "name": "React.js", "icon": "⚛️" },
+      { "name": "Node.js", "icon": "🟢" },
+      { "name": "MongoDB", "icon": "🍃" }
+    ],
+    "links": {
+      "live": "https://shop.example.com",
+      "github": "https://github.com/example/ecommerce"
+    }
+  },
+  {
+    "title": "Team Collaboration App",
+    "slug": "team-collab-app",
+    "image": "/window.svg",
+    "shortDescription": "A real-time team collaboration tool for remote teams.",
+    "description": "A web app for real-time chat, file sharing, and task management. Built with Next.js, Firebase, and Material UI for a seamless user experience.",
+    "skills": [
+      { "name": "Next.js", "icon": "▲" },
+      { "name": "Firebase", "icon": "🔥" },
+      { "name": "Material UI", "icon": "🧩" }
+    ],
+    "links": {
+      "live": "https://collab.example.com",
+      "github": "https://github.com/example/collab"
+    }
+  },
+  {
+    "title": "Smart City Environmental Monitoring",
+    "slug": "smart-city-environmental-monitoring",
+    "image": "/smart-city.svg",
+    "shortDescription": "AI-powered platform for real-time environmental analytics and intelligent alerts.",
+    "description": "An enterprise-grade full-stack platform delivering real-time weather analytics, AQI tracking, predictive modeling, and intelligent alerts. Built with React.js, Node.js, Python (Flask), and MongoDB, it integrates machine learning for 24-hour forecasting, ApexCharts for dynamic visualizations, and JWT-secured authentication. Features live dashboards, heatmaps, automated email alerts, offline-ready data handling, and scalable microservices for smart cities, agriculture, and compliance systems.",
+    "skills": [
+      { "name": "React.js", "icon": "⚛️" },
+      { "name": "Node.js", "icon": "🟢" },
+      { "name": "Python", "icon": "🐍" },
+      { "name": "Flask", "icon": "🍶" },
+      { "name": "Machine Learning", "icon": "🤖" },
+      { "name": "MongoDB", "icon": "🍃" },
+      { "name": "ApexCharts", "icon": "📊" },
+      { "name": "Data Visualization", "icon": "📈" },
+      { "name": "JWT Authentication", "icon": "🔑" },
+      { "name": "Microservices", "icon": "🧩" },
+      { "name": "Real-time Dashboards", "icon": "⏱️" },
+      { "name": "Heatmaps", "icon": "🌡️" },
+      { "name": "Offline Data Handling", "icon": "📦" },
+      { "name": "Automated Email Alerts", "icon": "📧" }
+    ],
+    "links": {
+      "live": "https://smartcity.example.com",
+      "github": "https://github.com/example/smartcity"
+    }
+  },
+  {
+    "title": "Lals — AI-Powered E-Commerce Platform",
+    "slug": "lals-ai-powered-ecommerce",
+    "image": "/lals.svg",
+    "shortDescription": "Intelligent, scalable chocolate e-commerce platform with AI chatbot and real-time order tracking.",
+    "description": "Engineered a full-stack, enterprise-level chocolate e-commerce platform with AI chatbot support, real-time order tracking, secure checkout, admin analytics, PDF invoice generation with download, and cloud deployment. Built using Node.js, MongoDB, EJS, WebSockets, and NLP.js, this solution demonstrates my ability to deliver scalable, secure, and intelligent web applications that drive business growth and deliver seamless user experiences.",
+    "skills": [
+      { "name": "Node.js", "icon": "🟢" },
+      { "name": "MongoDB", "icon": "🍃" },
+      { "name": "EJS", "icon": "📝" },
+      { "name": "WebSockets", "icon": "🔌" },
+      { "name": "NLP.js", "icon": "🧠" },
+      { "name": "AI Chatbot Development", "icon": "🤖" },
+      { "name": "Secure Checkout", "icon": "🔒" },
+      { "name": "Admin Analytics", "icon": "📊" },
+      { "name": "PDF Invoice Generation", "icon": "📄" },
+      { "name": "Cloud Deployment", "icon": "☁️" },
+      { "name": "Real-time Order Tracking", "icon": "⏱️" },
+      { "name": "NLP Tokenization", "icon": "🗂️" }
+    ],
+    "links": {
+      "live": "http://lals.sufyanliaqat.me",
+      "github": "https://github.com/example/lals-ecommerce"
+    }
+  },
+  {
+    "title": "AI-Powered Portfolio Creator",
+    "slug": "ai-powered-portfolio-creator",
+    "image": "/portfolio-creator.svg",
+    "shortDescription": "Full-stack MERN application enabling users to create responsive, SEO-ready portfolios instantly.",
+    "description": "Built a full-stack MERN application that empowers users to generate responsive, SEO-friendly portfolios in minutes. Features include dynamic template engine, live preview, Netlify deployment, JWT authentication, admin dashboard, Redis caching, Cloudinary optimization, and a modern UI/UX powered by Vite and Tailwind CSS. Delivered with scalable architecture, blazing performance, and mobile-first design.",
+    "skills": [
+      { "name": "MongoDB", "icon": "🍃" },
+      { "name": "Express.js", "icon": "🚂" },
+      { "name": "React.js", "icon": "⚛️" },
+      { "name": "Node.js", "icon": "🟢" },
+      { "name": "Vite", "icon": "⚡" },
+      { "name": "Tailwind CSS", "icon": "🎨" },
+      { "name": "Netlify Deployment", "icon": "☁️" },
+      { "name": "JWT Authentication", "icon": "🔑" },
+      { "name": "Redis Caching", "icon": "📦" },
+      { "name": "Cloudinary Optimization", "icon": "🖼️" },
+      { "name": "Dynamic Template Engine", "icon": "📝" },
+      { "name": "Live Preview", "icon": "👀" },
+      { "name": "Admin Dashboard", "icon": "📊" },
+      { "name": "SEO Optimization", "icon": "🔍" },
+      { "name": "Mobile-First Design", "icon": "📱" }
+    ],
+    "links": {
+      "live": "https://online-identity.tech",
+      "github": "https://github.com/HamzaNoor138/Portfolio-creator"
+    }
+  },
+  {
+    "title": "Modern Beverage Storefront",
+    "slug": "modern-beverage-storefront",
+    "image": "/modern-beverage.svg",
+    "shortDescription": "Premium Next.js + Strapi e-commerce platform with secure payments and advanced CMS features.",
+    "description": "Developed a premium full-stack e-commerce platform using Next.js (App Router), TypeScript, Tailwind CSS, and Strapi CMS with seamless PayPal integration. Features include a dynamic cart with React Context, a responsive product catalog, blazing-fast SSG pages, an animated UI, and enterprise-level SEO. Delivered a scalable, mobile-first, high-performance shopping experience with secure payments and advanced CMS-driven product management.",
+    "skills": [
+      { "name": "React.js", "icon": "⚛️" },
+      { "name": "Next.js", "icon": "▲" },
+      { "name": "TypeScript", "icon": "📘" },
+      { "name": "Tailwind CSS", "icon": "🎨" },
+      { "name": "Strapi CMS", "icon": "🗄️" },
+      { "name": "Payment Gateway Integration", "icon": "💳" },
+      { "name": "UI Animation", "icon": "🎞️" },
+      { "name": "PayPal Integration", "icon": "💰" },
+      { "name": "Static Site Generation (SSG)", "icon": "⚡" },
+      { "name": "React Context API", "icon": "🧩" },
+      { "name": "SEO Optimization", "icon": "🔍" },
+      { "name": "CMS-Driven Product Management", "icon": "📦" },
+      { "name": "Mobile-First Design", "icon": "📱" }
+    ],
+    "links": {
+      "live": "https://modern-beverage.example.com",
+      "github": "https://github.com/HamzaNoor138/aura-bora-"
+    }
+  },
+  {
+    "title": "Hotel Finder — Full-Featured Flutter App for Modern Hostel Management",
+    "slug": "hotel-finder-flutter-app",
+    "image": "/hotel-finder.svg",
+    "shortDescription": "Flutter-based mobile app connecting hostel owners with students and travelers.",
+    "description": "Hotel Finder is a Flutter-based mobile app connecting hostel owners with students and travelers. It features secure Firebase authentication, profile management, and real-time hostel listings via Firestore. Owners can upload images using Image Picker, while Shared Preferences ensure smooth offline use. Integrated Google Maps and Geolocator offer precise location search, with GetX for efficient state management and cached images for fast, optimized performance.",
+    "skills": [
+      { "name": "Flutter", "icon": "💙" },
+      { "name": "Firebase Authentication", "icon": "🔑" },
+      { "name": "Firebase Realtime Database", "icon": "📡" },
+      { "name": "Firebase Cloud Firestore", "icon": "🔥" },
+      { "name": "Image Picker", "icon": "🖼️" },
+      { "name": "Shared Preferences", "icon": "📦" },
+      { "name": "Google Maps Integration", "icon": "🗺️" },
+      { "name": "Geolocator", "icon": "📍" },
+      { "name": "GetX State Management", "icon": "⚙️" },
+      { "name": "Cached Images", "icon": "🗃️" },
+      { "name": "Map Integration", "icon": "🗺️" },
+      { "name": "Geolocation", "icon": "📍" },
+      { "name": "Offline Functionality", "icon": "📴" }
+    ],
+    "links": {
+      "live": "https://hotel-finder.example.com",
+      "github": "https://github.com/example/hotel-finder"
+    }
+  },
+  {
+    "title": "Full-Stack Food App — React Native & Firebase with Stunning Modern UI",
+    "slug": "full-stack-food-app",
+    "image": "/food-app.svg",
+    "shortDescription": "Complete food ordering app with smooth UX, email verification, and API integration.",
+    "description": "Designed and developed a complete food ordering app from landing page to checkout using React.js. Delivered a pixel-perfect, fully responsive UI with smooth UX across all screens. Integrated Nodemailer for user verification and order confirmation emails. Managed API integration flawlessly and implemented a high-end, modern UI that enhances engagement. Built to showcase real-world, production-level front-end expertise.",
+    "skills": [
+      { "name": "React Native", "icon": "📱" },
+      { "name": "React Bootstrap", "icon": "🎨" },
+      { "name": "JavaScript", "icon": "📜" },
+      { "name": "API Integration", "icon": "🔌" },
+      { "name": "UI Animation", "icon": "🎞️" },
+      { "name": "Firebase", "icon": "🔥" },
+      { "name": "Nodemailer", "icon": "📧" },
+      { "name": "Responsive Design", "icon": "📏" },
+      { "name": "Front-end Optimization", "icon": "⚡" }
+    ],
+    "links": {
+      "live": "https://food-app.example.com",
+      "github": "https://github.com/example/food-app"
+    }
+  },
+  {
+    "title": "Blinkit UI - Premium E-Commerce App",
+    "slug": "blinkit-ui-premium-ecommerce",
+    "image": "/p8.png",
+    "shortDescription": "Enterprise-grade Flutter e-commerce app with clean architecture, advanced UI/UX, and real-time delivery tracking.",
+    "description": "Built a production-ready, enterprise-grade e-commerce mobile application inspired by Blinkit, India's leading instant delivery platform. Developed using Flutter with Clean Architecture and optimized state management, the app features OTP-based authentication, smart product search, dynamic category navigation, cart intelligence, personalized profiles, promotions, and real-time delivery tracking. Designed with Material Design 3.0, smooth animations, and cross-platform optimizations for iOS and Android, this project demonstrates scalable architecture, premium UI/UX, and business-driven functionality.",
+    "skills": [
+      { "name": "Flutter", "icon": "🟦" },
+      { "name": "Dart", "icon": "🎯" },
+      { "name": "Clean Architecture", "icon": "🏗️" },
+      { "name": "State Management", "icon": "⚡" },
+      { "name": "UI/UX Design", "icon": "🎨" },
+      { "name": "Material Design 3.0", "icon": "📱" },
+      { "name": "Responsive Design", "icon": "📐" },
+      { "name": "Real-Time Tracking", "icon": "📍" },
+      { "name": "Authentication", "icon": "🔑" },
+      { "name": "E-Commerce Features", "icon": "🛒" },
+      { "name": "Cross-Platform Development", "icon": "🔀" },
+      { "name": "Performance Optimization", "icon": "🚀" }
+    ],
+    "links": {
+      "live": "https://blinkit-ui.example.com",
+      "github": "https://github.com/HamzaNoor138/blinkit-ui"
+    }
+  }
+] 

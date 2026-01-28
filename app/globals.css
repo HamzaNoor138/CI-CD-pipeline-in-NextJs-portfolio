@@ -1,0 +1,270 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  
+  /* Custom responsive breakpoints */
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Enhanced Responsive Breakpoints */
+/* Mobile: 320px - 640px */
+/* Tablet: 640px - 1024px */
+/* Desktop: 1024px+ */
+
+/* Mobile-first responsive utilities */
+@media (max-width: 640px) {
+  .mobile-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .mobile-text-scale {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .mobile-heading-scale {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  
+  .mobile-subheading-scale {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  .mobile-gap {
+    gap: 0.75rem;
+  }
+}
+
+/* Tablet responsive utilities */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .tablet-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .tablet-text-scale {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  .tablet-heading-scale {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  
+  .tablet-subheading-scale {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  
+  .tablet-gap {
+    gap: 1rem;
+  }
+}
+
+html, body {
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+  background-attachment: fixed;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Services Section Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+    filter: drop-shadow(0 10px 20px rgba(108, 92, 231, 0.2));
+  }
+  50% {
+    transform: translateY(-20px) scale(1.02);
+    filter: drop-shadow(0 20px 40px rgba(108, 92, 231, 0.4));
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 
+      0 0 20px rgba(108, 92, 231, 0.3),
+      0 0 40px rgba(108, 92, 231, 0.1);
+  }
+  50% {
+    box-shadow: 
+      0 0 30px rgba(108, 92, 231, 0.6),
+      0 0 60px rgba(108, 92, 231, 0.2);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+/* (Removed duplicate fadeIn keyframes to avoid conflicts) */
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 3s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s ease-in-out infinite;
+}
+
+/* Stagger animations for services */
+.animate-slide-in-left:nth-child(1) { animation-delay: 0.2s; }
+.animate-slide-in-right:nth-child(2) { animation-delay: 0.4s; }
+.animate-slide-in-left:nth-child(3) { animation-delay: 0.6s; }
+.animate-slide-in-right:nth-child(4) { animation-delay: 0.8s; }
+
+/* Stagger the floating animations for each service */
+.animate-float:nth-child(1) { animation-delay: 0s; }
+.animate-float:nth-child(2) { animation-delay: 1.5s; }
+.animate-float:nth-child(3) { animation-delay: 3s; }
+.animate-float:nth-child(4) { animation-delay: 4.5s; }
+
+/* Landing Page Animations */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+.animate-slide-up-delay {
+  animation: slideUp 0.8s ease-out 0.2s forwards;
+  opacity: 0;
+}
+
+.animate-slide-up-delay-2 {
+  animation: slideUp 0.8s ease-out 0.4s forwards;
+  opacity: 0;
+}
+
+.animate-slide-up-delay-3 {
+  animation: slideUp 0.8s ease-out 0.6s forwards;
+  opacity: 0;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 20s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
